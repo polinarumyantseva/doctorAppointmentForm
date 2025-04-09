@@ -40,7 +40,6 @@ export const RecordingForm = () => {
 				return response.json();
 			})
 			.then((data) => {
-				console.log('Success:', data);
 				setSuccess(true);
 				setFormData({ fullName: '', phone: '', description: '' });
 			})
